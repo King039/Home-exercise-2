@@ -167,5 +167,21 @@
 //    default: Console.WriteLine("Такого месяца нет"); break;
 //}
 
+//11.4
 
-
+Console.WriteLine("Введите ваш возраст: ");
+int age = int.Parse(Console.ReadLine());
+if (age < 18) Console.WriteLine("Вы слишком молоды для участия в выборах");
+else if (age >= 18 && age <= 35) Console.WriteLine("Вы можете участвовать в выборах в качестве депутата");
+else if (age >= 36 && age <= 65) Console.WriteLine("Вы можете участвовать в выборах в качестве кандидата в президенты");
+else Console.WriteLine("Ваш возраст слишком велик для участия в выборах");
+Console.WriteLine("За кого отдадите свой голос?\n" + "1-Незнайка\n" + "2-Лунтик\n" + "3-Карлсон\n" + "4-Дядя Фёдор\n");
+int number = int.Parse(Console.ReadLine());
+switch (number)
+{
+    case 1: Console.WriteLine("Незнайка - А у тебя в животе арбуз вырастет!!!"); break;
+    case 2: Console.WriteLine("Лунтик - Да, я хочу летать! Я хочу, править миром!"); break;
+    case 3: Console.WriteLine("Карлсон - Спокойствие, только спокойствие!"); break;
+    case 4: Console.WriteLine("Дядя Фёдор - Чтобы продать что-нибудь не нужное, надо купить что-нибудь не нужное, а унас денег нет!"); break;
+    default: Console.WriteLine("Такого кандидата нет!"); break;
+}
