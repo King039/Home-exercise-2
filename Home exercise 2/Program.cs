@@ -1,65 +1,65 @@
-﻿//9.2
-//1
-long a = 264895468854;
-Console.WriteLine(a + "=" + Convert.ToString(a, 2));
-Console.WriteLine(~a + "=" + Convert.ToString(~a, 2));
-long b = 256;
-Console.WriteLine(b + "=" + Convert.ToString(b, 2));
-Console.WriteLine(~b + "=" + Convert.ToString(~b, 2));
-//2
-int c = 256;
-c >>= 1;
-Console.WriteLine(c);
-c <<= 1;
-Console.WriteLine(c);
-//3
-int d = 289;
-d += 2487;
-Console.WriteLine(d);
-d *= 2487;
-Console.WriteLine(d);
-d -= 2487;
-Console.WriteLine(d);
-d /= 2487;
-Console.WriteLine(d);
-d %= 2487;
-Console.WriteLine(d);
-d >>= 2487;
-Console.WriteLine(d);
-d <<= 2487;
-Console.WriteLine(d);
+﻿////9.2
+////1
+//long a = 264895468854;
+//Console.WriteLine(a + "=" + Convert.ToString(a, 2));
+//Console.WriteLine(~a + "=" + Convert.ToString(~a, 2));
+//long b = 256;
+//Console.WriteLine(b + "=" + Convert.ToString(b, 2));
+//Console.WriteLine(~b + "=" + Convert.ToString(~b, 2));
+////2
+//int c = 256;
+//c >>= 1;
+//Console.WriteLine(c);
+//c <<= 1;
+//Console.WriteLine(c);
+////3
+//int d = 289;
+//d += 2487;
+//Console.WriteLine(d);
+//d *= 2487;
+//Console.WriteLine(d);
+//d -= 2487;
+//Console.WriteLine(d);
+//d /= 2487;
+//Console.WriteLine(d);
+//d %= 2487;
+//Console.WriteLine(d);
+//d >>= 2487;
+//Console.WriteLine(d);
+//d <<= 2487;
+//Console.WriteLine(d);
 
-int g = 144;
-g += 2487;
-Console.WriteLine(g);
-g *= 2487;
-Console.WriteLine(g);
-g -= 2487;
-Console.WriteLine(g);
-g /= 2487;
-Console.WriteLine(g);
-g %= 2487;
-Console.WriteLine(g);
-g >>= 2487;
-Console.WriteLine(g);
-g <<= 2487;
-Console.WriteLine(g);
+//int g = 144;
+//g += 2487;
+//Console.WriteLine(g);
+//g *= 2487;
+//Console.WriteLine(g);
+//g -= 2487;
+//Console.WriteLine(g);
+//g /= 2487;
+//Console.WriteLine(g);
+//g %= 2487;
+//Console.WriteLine(g);
+//g >>= 2487;
+//Console.WriteLine(g);
+//g <<= 2487;
+//Console.WriteLine(g);
 
-int e = 36274;
-e += 2487;
-Console.WriteLine(e);
-e *= 2487;
-Console.WriteLine(e);
-e -= 2487;
-Console.WriteLine(e);
-e /= 2487;
-Console.WriteLine(e);
-e %= 2487;
-Console.WriteLine(e);
-e >>= 2487;
-Console.WriteLine(e);
-e <<= 2487;
-Console.WriteLine(e);
+//int e = 36274;
+//e += 2487;
+//Console.WriteLine(e);
+//e *= 2487;
+//Console.WriteLine(e);
+//e -= 2487;
+//Console.WriteLine(e);
+//e /= 2487;
+//Console.WriteLine(e);
+//e %= 2487;
+//Console.WriteLine(e);
+//e >>= 2487;
+//Console.WriteLine(e);
+//e <<= 2487;
+//Console.WriteLine(e);
 
 // дз 10.1
 
@@ -78,3 +78,63 @@ Console.WriteLine(e);
 //double C = double.Parse(Console.ReadLine());
 //double B = Math.Sqrt(C * C - A * A);
 //Console.WriteLine($"Значение второго катета = {B:F2}");
+
+// дз 11.1
+
+//Console.WriteLine("Введите первое чисело: ");
+//int one = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите второе чисело: ");
+//int two = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите третье чисело: ");
+//int three = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите четвертое чисело: ");
+//int four = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите пятое чисело: ");
+//int five = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите шестое чисело: ");
+//int six = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите седьмое чисело: ");
+//int seven = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите восьмое чисело: ");
+//int eight = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите девятое чисело: ");
+//int nine = int.Parse(Console.ReadLine());
+//Console.WriteLine("Введите десятое чисело: ");
+//int ten = int.Parse(Console.ReadLine());
+//Console.WriteLine(" ");
+//int sum = one + two + three + four + five + six + seven + eight + nine + ten;
+//Console.WriteLine($"Сумма введеных вами чисел = {sum}");
+//Console.WriteLine(" ");
+//Console.WriteLine((one > 10) ? one : (one < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((two > 10) ? two : (two < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((three > 10) ? three : (three < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((four > 10) ? four : (four < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((five > 10) ? five : (five < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((six > 10) ? six : (six < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((seven > 10) ? seven : (seven < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((eight > 10) ? eight : (eight < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((nine > 10) ? nine : (nine < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine((ten > 10) ? ten : (ten < 10) ? "Меньше 10" : "Равно");
+//Console.WriteLine(" ");
+//Console.WriteLine((one > -10) ? "Больше -10" : (one < -10) ? one : "Равно");
+//Console.WriteLine((two > -10) ? "Больше -10" : (two < -10) ? two : "Равно");
+//Console.WriteLine((three > -10) ? "Больше -10" : (three < -10) ? three : "Равно");
+//Console.WriteLine((four > -10) ? "Больше -10" : (four < -10) ? four : "Равно");
+//Console.WriteLine((five > -10) ? "Больше -10" : (five < -10) ? five : "Равно");
+//Console.WriteLine((six > -10) ? "Больше -10" : (six < -10) ? six : "Равно");
+//Console.WriteLine((seven > -10) ? "Больше -10" : (seven < -10) ? seven : "Равно");
+//Console.WriteLine((eight > -10) ? "Больше -10" : (eight < -10) ? eight : "Равно");
+//Console.WriteLine((nine > -10) ? "Больше -10" : (nine < -10) ? nine : "Равно");
+//Console.WriteLine((ten > -10) ? "Больше -10" : (ten < -10) ? ten : "Равно");
+//Console.WriteLine(" ");
+//int max = Math.Max();
+//доделать
+
+//11.2
+
+Console.WriteLine("Введите температуру на улице: ");
+double T = double.Parse(Console.ReadLine());
+if (T < 35 && T > 20) Console.WriteLine("На улицу выходят гулять: Слоны,Жирафы,Львы.");
+else if (T > -35 && T < 20) Console.WriteLine("На улицу выходят гулять: Медведи,Волки,Пингвины.");
+else if (T == 20) Console.WriteLine("На улицу выходят гулять: Кенгуру.");
+else Console.WriteLine("Такой температуры не существует");
