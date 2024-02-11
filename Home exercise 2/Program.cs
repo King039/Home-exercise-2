@@ -142,32 +142,32 @@
 
 //11.3
 //1
-//Random random = new Random();
-//Console.WriteLine("Введите и угадайте число от 0 до 5 загаданое компьютером:");
-//int userNumber = int.Parse(Console.ReadLine());
-//int number = random.Next(0, 6);
-//Console.WriteLine(number);
-//if (userNumber == number) Console.WriteLine("Победа!");
-//else Console.WriteLine("Вы не угадали");
-////2
-//Console.Write("Введите номер месяца:");
-//byte n = byte.Parse(Console.ReadLine());
-//Console.Write("Введите температуру:");
-//double t = double.Parse(Console.ReadLine());
-//switch (n)
-//{
-//    case 1:
-//    case 2:
-//    case 12:
-//        {
-//            if (t > 0) Console.WriteLine("Дождьливая зима");
-//            Console.WriteLine("Зима"); break;
-//        }
-//    case 3: case 4: case 5: Console.WriteLine("Весна"); break;
-//    case 6: case 7: case 8: Console.WriteLine("Лето"); break;
-//    case 9: case 10: case 11: Console.WriteLine("Осень"); break;
-//    default: Console.WriteLine("Такого месяца нет"); break;
-//}
+Random random = new Random();
+Console.WriteLine("Введите и угадайте число от 0 до 5 загаданое компьютером:");
+int userNumber = int.Parse(Console.ReadLine());
+int number = random.Next(0, 6);
+Console.WriteLine(number);
+if (userNumber == number) Console.WriteLine("Победа!");
+else Console.WriteLine("Вы не угадали");
+//2
+Console.Write("Введите номер месяца:");
+byte n = byte.Parse(Console.ReadLine());
+Console.Write("Введите температуру:");
+double t = double.Parse(Console.ReadLine());
+switch (n)
+{
+    case 1:
+    case 2:
+    case 12:
+        {
+            if (t > 0) Console.WriteLine("Дождьливая зима");
+            Console.WriteLine("Зима"); break;
+        }
+    case 3: case 4: case 5: Console.WriteLine("Весна"); break;
+    case 6: case 7: case 8: Console.WriteLine("Лето"); break;
+    case 9: case 10: case 11: Console.WriteLine("Осень"); break;
+    default: Console.WriteLine("Такого месяца нет"); break;
+}
 
 //11.4
 
