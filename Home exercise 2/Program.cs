@@ -72,7 +72,56 @@
 //Console.WriteLine("ФД. №: 6026");
 //Console.WriteLine("ФПД: 3322278314");
 
+//дз 6.1
+//string myString = "28";
+//Console.WriteLine(myString);
+//byte myByte = byte.Parse(myString);
+//Console.WriteLine(myByte);
+//nint myNint = nint.Parse(myString);
+//Console.WriteLine(myNint);
+//int myInt = int.Parse(myString);
+//Console.WriteLine(myInt);
+//long myLong = long.Parse(myString);
+//Console.WriteLine(myLong);
+//double myDouble = double.Parse(myString);
+//Console.WriteLine(myDouble);
 
+// дз 6.2
+//string firstString = "512";
+//int number = int.Parse(firstString);
+//Console.WriteLine(number.GetType());
+//string secondString = number.ToString();
+//Console.WriteLine(secondString.GetType());
+//Console.WriteLine(secondString);
+
+//string a = "100";
+//int b = int.Parse(a);
+//Console.WriteLine(b.GetType());
+//string c = b.ToString();
+//Console.WriteLine(c.GetType());
+//Console.WriteLine(c);
+
+//7.1-2
+//1
+//double PI = 3.14;
+//Console.WriteLine("Введите радиус окружности: ");
+//double radius = double.Parse(Console.ReadLine());
+//Console.WriteLine("Площадь круга равна: ");
+//Console.WriteLine(PI * radius * radius);
+//2
+//Console.WriteLine("Введите ваше имя: ");
+//string name = Console.ReadLine();
+//Console.WriteLine("Введите вашу фамилию: ");
+//string surname = Console.ReadLine();
+//Console.WriteLine("Введите ваше отчество: ");
+//string familyName = Console.ReadLine();
+//Console.WriteLine("Укажите место работы: ");
+//string job = Console.ReadLine();
+//Console.WriteLine("Семейное положение: ");
+//string familyStatus = Console.ReadLine();
+//Console.WriteLine("Есть ли у вас дети: ");
+//string children = Console.ReadLine();
+//Console.WriteLine($"{name}\n{surname}\n{familyName}\n{job}\n{familyStatus}\n{children}");
 
 ////9.2
 ////1
