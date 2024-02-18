@@ -357,3 +357,18 @@
 //    default: Console.WriteLine("Такого кандидата нет!"); break;
 //}
 
+//12.1
+//Console.Write("Введите первое число: ");
+//double n1 = double.Parse(Console.ReadLine());
+//Console.Write("Введите второе число: ");
+//double n2 = double.Parse(Console.ReadLine());
+//Console.WriteLine("Выберете операцию:\n"+"1-Сложение\n"+"2-Вычитание\n"+"3-Умножение\n"+"4-Деление\n");
+//int operation = int.Parse(Console.ReadLine());
+//switch (operation)
+//{
+//    case 1: Console.WriteLine(n1+n2);break;
+//    case 2: Console.WriteLine(n1-n2);break;
+//    case 3: Console.WriteLine(n1*n2);break;
+//    case 4: Console.WriteLine(n1/n2);break;
+//    default: Console.WriteLine("Такой операции нет!");break;
+//}
