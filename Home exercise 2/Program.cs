@@ -372,3 +372,16 @@
 //    case 4: Console.WriteLine(n1/n2);break;
 //    default: Console.WriteLine("Такой операции нет!");break;
 //}
+
+//12.2
+//Console.WriteLine("Выберете аромат духов:\n" + "1-Chanel\n" + "2-Dior\n" + "3-Tom Ford\n" + "4-Gucci\n"+ "5-Yves Saint Laurent\n");
+//int perfume = int.Parse(Console.ReadLine());
+//switch(perfume)
+//{
+//    case 1:Console.WriteLine("Хороший парфюм, по приемлемой цене.");break;
+//    case 2:Console.WriteLine("Летящие,ароматные запахи");break;
+//    case 3:Console.WriteLine("Очень дорогой парфюм, пахнет бабками");break;
+//    case 4:Console.WriteLine("Стойкий парфюм, с хорошим шлейфом");break;
+//    case 5:Console.WriteLine("Достойный гурманский аромат5");break;
+//    default:Console.WriteLine("В списке 5 пунктов!");break;
+//}
