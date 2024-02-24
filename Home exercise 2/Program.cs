@@ -423,6 +423,16 @@
 //}
 //while (n!=7);
 //2
-
+//int a;
+//int sum = 0;
+//int i = 1;
+//do
+//{
+//    Console.WriteLine("Введите число: ");
+//    a = int.Parse(Console.ReadLine());
+//    sum += a;
+//}
+//while (a != 0);
+//Console.WriteLine("Сумма чисел равна " + sum);
 
 
