@@ -210,95 +210,94 @@
 //double Sum = 0;
 //int CountGreat10 = 0;
 //int CountLess10 = 0;
-//double avg = 0;
 //int min;
 //int max;
 //Console.Write("Введите 1 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //min = a;
 //max = a;
 
 //Console.Write("Введите 2 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 3 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 4 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 5 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 6 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 7 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 8 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 9 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
 //Console.Write("Введите 10 число:");
 //a = int.Parse(Console.ReadLine());
 //Sum += a;
-//CountGreat10 = (a > 10) ? CountGreat10++ : CountGreat10;
-//CountLess10 = (a < -10) ? CountLess10++ : CountLess10;
+//CountGreat10 = (a > 10) ? ++CountGreat10 : CountGreat10;
+//CountLess10 = (a < -10) ? ++CountLess10 : CountLess10;
 //if (a < min) min = a;
 //if (a > max) max = a;
 
-//Console.WriteLine("Sum=" + Sum);
-//Console.WriteLine(">10=" + CountGreat10);
-//Console.WriteLine("<-10=" + CountLess10);
-//Console.WriteLine("AVG=" + (Sum / 10));
-//Console.WriteLine("Минимальное число: "+min);
-//Console.WriteLine("Максимальное число: "+max);
+//Console.WriteLine("Сумма чисел = " + Sum);
+//Console.WriteLine("Количество чисел больших 10 - " + CountGreat10);
+//Console.WriteLine("Количество чисел меньших -10 - " + CountLess10);
+//Console.WriteLine("Среднее арифметическое всех чисел = " + (Sum / 10));
+//Console.WriteLine("Минимальное число: " + min);
+//Console.WriteLine("Максимальное число: " + max);
 
 //11.2
 
@@ -385,3 +384,42 @@
 //    case 5:Console.WriteLine("Достойный гурманский аромат5");break;
 //    default:Console.WriteLine("В списке 5 пунктов!");break;
 //}
+
+//13.1// не понял что надо сделать, если пользователь угадал число , как остановить цыкл?
+//Random random = new Random();
+//int ran = random.Next(1, 6);
+//int i = 1;
+//do
+//{
+//    Console.Write("Введите число от 1 до 5 загаданое компьютером: ");
+//    int n = int.Parse(Console.ReadLine()); i++;
+//    if (ran == n) Console.WriteLine("Победа!");
+//    else if (ran != n && i == 2) Console.WriteLine("Вы не угадали, у вас еще 2 попытки.");
+//    else if (ran != n && i == 3) Console.WriteLine("Вы не угадали, у вас еще 1 попытка.");
+//    else if (ran != n && i == 4) Console.WriteLine("Вы не угадали, компьютер загадал число: " + ran);
+//}
+//while (i <= 3);
+
+//13.2
+//1 не работает
+//while (true) ;
+//int i = 1;
+//Random random = new Random();
+//while (i <= 10)
+//{
+//    int ran = random.Next(1, 10); i++;
+//    if (ran != 7) Console.WriteLine(ran);
+//    else;
+//}
+//2 не работает
+//Console.Write("Введите число: ");
+//int n =int.Parse(Console.ReadLine());
+//int sum = 0;
+//int i = 1;
+//while (n==0)
+//{
+//    if (n == 0) Console.WriteLine($"Сумма введеных вами чисел равна: "+sum);i++;
+//    sum += n;
+//}
+
+
