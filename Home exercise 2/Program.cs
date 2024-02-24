@@ -385,7 +385,7 @@
 //    default:Console.WriteLine("В списке 5 пунктов!");break;
 //}
 
-//13.1// не понял что надо сделать, если пользователь угадал число , как остановить цыкл?
+//13.1
 //Random random = new Random();
 //int ran = random.Next(1, 6);
 //int i = 1;
@@ -393,33 +393,36 @@
 //{
 //    Console.Write("Введите число от 1 до 5 загаданое компьютером: ");
 //    int n = int.Parse(Console.ReadLine()); i++;
-//    if (ran == n) Console.WriteLine("Победа!");
-//    else if (ran != n && i == 2) Console.WriteLine("Вы не угадали, у вас еще 2 попытки.");
-//    else if (ran != n && i == 3) Console.WriteLine("Вы не угадали, у вас еще 1 попытка.");
-//    else if (ran != n && i == 4) Console.WriteLine("Вы не угадали, компьютер загадал число: " + ran);
+//    if (ran == n)
+//    {
+//        Console.WriteLine("Победа!"); break;
+//    }
+//    else if (ran != n && i == 2)
+//    {
+//        Console.WriteLine("Вы не угадали, у вас еще 2 попытки.");
+//    }
+//    else if (ran != n && i == 3)
+//    {
+//        Console.WriteLine("Вы не угадали, у вас еще 1 попытка.");
+//    }
+//    else if (ran != n && i == 4)
+//    {
+//        Console.WriteLine("Вы не угадали, компьютер загадал число: " + ran);
+//    }
 //}
 //while (i <= 3);
 
 //13.2
-//1 не работает
-//while (true) ;
-//int i = 1;
+//1
 //Random random = new Random();
-//while (i <= 10)
+//int n;
+//do
 //{
-//    int ran = random.Next(1, 10); i++;
-//    if (ran != 7) Console.WriteLine(ran);
-//    else;
+//    n=random.Next(1,11);
+//    Console.Write(n+" ");
 //}
-//2 не работает
-//Console.Write("Введите число: ");
-//int n =int.Parse(Console.ReadLine());
-//int sum = 0;
-//int i = 1;
-//while (n==0)
-//{
-//    if (n == 0) Console.WriteLine($"Сумма введеных вами чисел равна: "+sum);i++;
-//    sum += n;
-//}
+//while (n!=7);
+//2
+
 
 
