@@ -435,4 +435,108 @@
 //while (a != 0);
 //Console.WriteLine("Сумма чисел равна " + sum);
 
+//14.1
+//Console.WriteLine("Укажите длинну пароля: ");
+//int lengthpasword =int.Parse(Console.ReadLine());
+//Random random = new Random();
+//int password;
+//for (int i = 0; i < lengthpasword; i++)
+//{
+//    password = random.Next(48,123);
+//    Console.Write((char) password);
+//}
+
+//14.2
+//Random random = new Random();
+//double temperature = 0;
+//for (int i = 0; ; i++)
+//{
+//    temperature = random.Next(1,100);
+//    Console.WriteLine(temperature);
+//    if (temperature>90)
+//    {
+//        Console.WriteLine("Устройство перегрелось.");break;
+//    }
+//}
+
+//Console.Write("Укажите количество квадратов: ");
+//int quantity = Convert.ToInt32(Console.ReadLine());
+////просим ввести пользователя колличество квадратов
+//Console.Write("Укажите сторону квадрата: ");
+//int weigth = Convert.ToInt32(Console.ReadLine());
+////просим указать колличество звездочек из которых будет состоять квадрат
+//for (int i = 0; i < quantity; i++)//вычисляется колличество повторений операции
+//{
+//    for (int j = 0; j < weigth; j++)//вычисляется длинна верхней стороны
+//    {
+//        Console.Write("*");//вывод на экран
+//        Console.Write(" ");//вывод на экран
+//    }
+//    Console.WriteLine();
+//    for (int k = 0; k < weigth - 2; k++)//длинна левой и правой сторон
+//    {
+//        Console.Write("*");//вывод на экран
+//        for (int l = 0; l < weigth + weigth - 2; l++)
+//        {
+//            Console.Write(" ");//вывод на экран
+//        }
+//        Console.Write("*");//вывод на экран
+//        Console.WriteLine();//вывод на экран
+//    }
+//    for (int m = 0; m < weigth; m++)// длинна нижней стороны
+//    {
+//        Console.Write("*");//вывод на экран
+//        Console.Write(" ");//вывод на экран
+//    }
+
+//    Console.WriteLine();
+//}
+
+//15.2
+//Random random = new Random();
+//int[] mas = new int[10];
+//int even = 0;
+//for (int i = 0; i < mas.Length; i++)
+//{
+//    mas[i] = random.Next(0, 9);
+//}
+//for (int i = 0; i < mas.Length; i++)
+//{
+//    Console.Write(mas[i]);
+//}
+//Console.WriteLine();
+//for (int i = 0; i < mas.Length; i++)
+//{
+//    if (mas[i] == 0)
+//    {
+//        continue;
+//    }
+//    if (mas[i] % 2 == 0)
+//    {
+//        even++;
+//    }
+//    else
+//    {
+//        continue;
+//    }
+//}
+//Console.WriteLine("Четных чисел в массиве: " + even);
+
+//15.1
+//string[] mas = new string[12];
+//mas[0] = "освоении";
+//mas[1] = "остальное";
+//mas[2] = "по плечу";
+//mas[3] = "сложный";
+//mas[4] = "но если";
+//mas[5] = "программирования";
+//mas[6] = "многие бросают";
+//mas[7] = "остальное будет";
+//mas[8] = "освоить их,";
+//mas[9] = "этап в";
+//mas[10] = "на этом этапе,";
+//mas[11] = "Массивы -";
+//Console.WriteLine(mas[11] + " " + mas[3] + " " + mas[9] + " " + mas[0] + " " + mas[5] + " " + mas[4] + " " + mas[8] + " " + mas[7] + " " + mas[2] + " " + mas[1] + " " + mas[10] + " " + mas[6]);
+
+
 
