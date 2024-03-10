@@ -829,3 +829,41 @@
 //    Console.WriteLine();
 //}
 
+//17.2
+//int[][] mas = new int[3][];
+//mas[0] = new int[] { 1, 2, 3 };
+//mas[1] = new int[] { 4, 5, 6 };
+//mas[2] = new int[] { 7, 8, 9, 10 };
+//for (int i = 0; i < mas.Length; i++)
+//{
+//    for (int j = 0; j < mas[i].Length; j++)
+//    {
+//        Console.Write(mas[i][j] + " ");
+//    }
+//    Console.WriteLine();
+//}
+//int[] sum = new int[mas.Length];
+//for (int i = 0; i < mas.Length; i++)
+//{
+//    for (int j = 0; j < mas[i].Length; j++)
+//    {
+//        sum[i] += mas[i][j];
+//    }
+//}
+//Console.WriteLine("Суммы одномерных массивов:");
+//for (int i = 0; i < sum.Length; i++)
+//{
+//    Console.WriteLine(sum[i]);
+//}
+//int masSum = 0;
+//int colMasIndex = 0;
+//for (int i = 0; i < mas.Length; i++)
+//{
+//    for (int j = 0; j < mas[i].Length; j++)
+//    {
+//        masSum += mas[i][j];
+//        colMasIndex++;
+//    }
+//}
+//double avg = (double)masSum / colMasIndex;
+//Console.WriteLine($"Среднее арифметическое всех значений массива: {avg}");
