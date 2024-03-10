@@ -447,6 +447,7 @@
 //}
 
 //14.2
+//1
 //Random random = new Random();
 //double temperature = 0;
 //for (int i = 0; ; i++)
@@ -458,7 +459,7 @@
 //        Console.WriteLine("Устройство перегрелось.");break;
 //    }
 //}
-
+//2
 //Console.Write("Укажите количество квадратов: ");
 //int quantity = Convert.ToInt32(Console.ReadLine());
 ////просим ввести пользователя колличество квадратов
@@ -488,7 +489,6 @@
 //        Console.Write("*");//вывод на экран
 //        Console.Write(" ");//вывод на экран
 //    }
-
 //    Console.WriteLine();
 //}
 
@@ -586,3 +586,62 @@
 //    Console.WriteLine($"Число {searchNumber} найдено в массиве по индексу {index}");
 //}
 //else Console.WriteLine("Число не найдено в массиве");
+
+//16.1
+//1
+//double[,] mas = new double[3, 3];
+//int count = 0;
+//for (int i = 0; i < 3; i++)
+//{
+//    for (int j = 0; j < 3; j++)
+//    {
+//        mas[i, j] = count++;
+//    }
+//}
+//Console.WriteLine();
+//for (int i = 0; i < 3; i++)
+//{
+//    for (int j = 0; j < 3; j++)
+//    {
+//        Console.Write($"{mas[i, j]} ");
+//    }
+//    Console.WriteLine();
+//}
+//Console.WriteLine("Введите координаты элемента для замены (строка и столбец, разделенные пробелом):");
+//string[] coordinates = Console.ReadLine().Split(' ');
+//int row = int.Parse(coordinates[0]);
+//int col = int.Parse(coordinates[1]);
+//Console.WriteLine("Введите новое значение элемента:");
+//double newValue = double.Parse(Console.ReadLine());
+//mas[row - 1, col - 1] = newValue;
+//Console.WriteLine();
+//for (int i = 0; i < 3; i++)
+//{
+//    for (int j = 0; j < 3; j++)
+//    {
+//        Console.Write($"{mas[i, j]} ");
+//    }
+//    Console.WriteLine();
+//}
+
+//2
+//char[,] mas = new char[5, 2];
+//mas[0, 0] = 'П';
+//mas[0, 1] = 'р';
+//mas[1, 0] = 'и';
+//mas[1, 1] = 'в';
+//mas[2, 0] = 'е';
+//mas[2, 1] = 'т';
+//mas[3, 0] = ' ';
+//mas[3, 1] = 'м';
+//mas[4, 0] = 'и';
+//mas[4, 1] = 'р';
+//for (int i = 0; i < mas.GetLength(0); i++)
+//{
+//    for (int j = 0; j < mas.GetLength(1); j++)
+//    {
+//        Console.Write(mas[i, j] + " ");
+//    }
+//    Console.WriteLine();
+//}
+//Console.Write("Слово: Привет мир");
