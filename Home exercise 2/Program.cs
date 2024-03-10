@@ -565,4 +565,24 @@
 //    Console.Write($"{masTotal3[i]:F2} ");
 //}
 
-
+//15.3
+//int[] mas = new int[10];
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.Write($"Введите {i + 1}-е число: ");
+//    mas[i] = int.Parse(Console.ReadLine());
+//}
+//Array.Sort(mas);
+//foreach (int number in mas)
+//{
+//    Console.Write($"{number} ");
+//}
+//Console.WriteLine();
+//Console.Write("Введите число для поиска: ");
+//int searchNumber = int.Parse(Console.ReadLine());
+//int index = Array.BinarySearch(mas, searchNumber);
+//if (index >= 0)
+//{
+//    Console.WriteLine($"Число {searchNumber} найдено в массиве по индексу {index}");
+//}
+//else Console.WriteLine("Число не найдено в массиве");
