@@ -538,5 +538,31 @@
 //mas[11] = "Массивы -";
 //Console.WriteLine(mas[11] + " " + mas[3] + " " + mas[9] + " " + mas[0] + " " + mas[5] + " " + mas[4] + " " + mas[8] + " " + mas[7] + " " + mas[2] + " " + mas[1] + " " + mas[10] + " " + mas[6]);
 
+//15.4
+//int[] mas1 = { 4, 8 };
+//int[] mas2 = { 16, 2 };
+//double[] masTotal1 = new double[2];
+//for (int i = 0; i < mas1.Length; i++)
+//{
+//    masTotal1[i] = (mas1[i] + mas2[i]) / 2;
+//    Console.Write($"{masTotal1[i]:F2} ");
+//}
+//Console.WriteLine();
+//int[] mas3 = { 1, 22 };
+//int[] mas4 = { 13, 3 };
+//double[] masTotal2 = new double[2];
+//for (int i = 0; i < mas3.Length; i++)
+//{
+//    masTotal2[i] = (mas3[i] + mas4[i]) / 2.0;
+//    Console.Write($"{masTotal2[i]:F2} ");
+//}
+//Console.WriteLine();
+//double[] masTotal3 = new double[2];
+
+//for (int i = 0; i < masTotal3.Length; i++)
+//{
+//    masTotal3[i] = masTotal1[i] * masTotal2[i];
+//    Console.Write($"{masTotal3[i]:F2} ");
+//}
 
 
