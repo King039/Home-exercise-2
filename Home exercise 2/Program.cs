@@ -650,13 +650,13 @@
 //string[,] mas ={{"","","x","x","",""},
 //                {"","x","","","x",""},
 //                {"x","","","","","x"},
-//                {"","x","x","x","x",""},  
+//                {"","x","x","x","x",""},
 //                {"","","x","x","",""},
-//                {"","","x","x","",""},   
 //                {"","","x","x","",""},
-//                {"","","x","x","",""},  
 //                {"","","x","x","",""},
-//                {"","","x","x","",""},  
+//                {"","","x","x","",""},
+//                {"","","x","x","",""},
+//                {"","","x","x","",""},
 //                {"","x","x","x","x",""}};
 //string answer = "нет"; bool isChecked = false; do
 //{
@@ -867,3 +867,61 @@
 //}
 //double avg = (double)masSum / colMasIndex;
 //Console.WriteLine($"Среднее арифметическое всех значений массива: {avg}");
+
+//18.1
+//string[] forbiddenWords = { "1", "2", "3" };
+//string sentence = "";
+//while (true)
+//{
+//    Console.WriteLine("Введите слово (или 'конец' для завершения): ");
+//    string word = Console.ReadLine();
+//    if (word.ToLower() == "конец")
+//    {
+//        break;
+//    }
+//    bool wordIsForbidden = false;
+//    foreach (string forbiddenWord in forbiddenWords)
+//    {
+//        if (forbiddenWord.ToLower() == word.ToLower())
+//        {
+//            wordIsForbidden = true;
+//            break;
+//        }
+//    }
+//    if (wordIsForbidden)
+//    {
+//        sentence += "(скрыто) ";
+//    }
+//    else
+//    {
+//        sentence += word + " ";
+//    }
+//}
+//Console.WriteLine("Сформированное предложение: " + sentence);
+
+//18.2
+//1
+//Console.WriteLine("Введите строку чисел, разделенных запятыми: ");
+//string input = Console.ReadLine();
+//string[] numbersAsStrings = input.Split(',');
+//int sum = 0;
+//foreach (string numberAsString in numbersAsStrings)
+//{
+//    if (int.TryParse(numberAsString, out int number))
+//    {
+//        sum += number;
+//    }
+//    else
+//    {
+//        Console.WriteLine($"Ошибка: \"{numberAsString}\" не является числом.");
+//    }
+//}
+//Console.WriteLine($"Сумма чисел: {sum}");
+//2
+//Console.WriteLine("Введите предложение: ");
+//string input = Console.ReadLine();
+//string[] words = input.Split(new char[] { ' ', ',', '.', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+//int wordCount = words.Length;
+//Console.WriteLine($"Количество слов: {wordCount}");
+
+
